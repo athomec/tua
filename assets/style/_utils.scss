@@ -1,0 +1,53 @@
+/*-----------------連結樣式---------------------*/
+@each $key, $value in $color-themes {
+    .link-#{$key} {
+        color: $value;
+        &:hover {
+            color: darken($value, 20%);
+            img{
+                filter: brightness(0.8);
+            }
+        }
+    }
+}
+/*-----------------文字樣式---------------------*/
+@each $key, $value in $color-themes {
+    //文字顏色
+    .#{$key} {
+        color: $value !important;
+    }
+}
+@each $key, $value in $font-size-themes {
+    //文字尺寸
+    .#{$key} {
+        font-size: $value !important;
+    }
+}
+@each $key, $value in $font-weight-themes {
+    //文字重量
+    .#{$key} {
+        font-weight: $value !important;
+    }
+}
+.title {
+    color: $primary-color;
+    font-size: $font-sm;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    &~p{
+        margin-left: 20px;
+    }
+}
+ol li{
+    margin-bottom: 5px;
+    list-style: decimal!important;
+    margin-left: 40px;
+}
+ol ul li{
+    list-style:disc!important;
+    margin-left: 20px;
+    &::marker{
+        color: $primary-color;
+    }
+}

@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* --------------顏色設定開始--------------- */
+/* --------------字型設定開始--------------- */
+/* 字體設定 */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/earlyaccess/notosanstc.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --------------基本設定開始--------------- */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Noto Sans TC", "Microsoft JhengHei", "sans-serif";
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #707070;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:hover,
+button,
+button:hover {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+ol {
+  margin-bottom: 0;
+}
+
+/*-----------------連結樣式---------------------*/
+.link-primary-color {
+  color: #1D70B7;
+}
+
+.link-primary-color:hover {
+  color: #0f3a5f;
+}
+
+.link-primary-color:hover img {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
+.link-gray {
+  color: #707070;
+}
+
+.link-gray:hover {
+  color: #3d3d3d;
+}
+
+.link-gray:hover img {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
+
+/*-----------------文字樣式---------------------*/
+.primary-color {
+  color: #1D70B7 !important;
+}
+
+.gray {
+  color: #707070 !important;
+}
+
+.font-xxxs {
+  font-size: 0.7rem !important;
+}
+
+.font-xxs {
+  font-size: 0.8rem !important;
+}
+
+.font-xs {
+  font-size: 0.9rem !important;
+}
+
+.font-xsm {
+  font-size: 0.95rem !important;
+}
+
+.font-sm {
+  font-size: 1rem !important;
+}
+
+.font-smd {
+  font-size: 1.125rem !important;
+}
+
+.font-md {
+  font-size: 1.2rem !important;
+}
+
+.font-lg {
+  font-size: 1.4rem !important;
+}
+
+.font-xl {
+  font-size: 1.8rem !important;
+}
+
+.font-xxl {
+  font-size: 2.5rem !important;
+}
+
+.font-xxxl {
+  font-size: 3rem !important;
+}
+
+.font-xlight {
+  font-weight: 100 !important;
+}
+
+.font-light {
+  font-weight: 400 !important;
+}
+
+.font-bold {
+  font-weight: 500 !important;
+}
+
+.font-heavy {
+  font-weight: 600 !important;
+}
+
+.font-xheavy {
+  font-weight: 800 !important;
+}
+
+.title {
+  color: #1D70B7;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 5px;
+  padding-top: 15px;
+}
+
+.title ~ p {
+  margin-left: 20px;
+}
+
+ol li {
+  margin-bottom: 5px;
+  list-style: decimal !important;
+  margin-left: 40px;
+}
+
+ol ul li {
+  list-style: disc !important;
+  margin-left: 20px;
+}
+
+ol ul li::marker {
+  color: #1D70B7;
+}
+/*# sourceMappingURL=all.css.map */

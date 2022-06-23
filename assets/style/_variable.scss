@@ -1,0 +1,72 @@
+/* --------------顏色設定開始--------------- */
+
+$primary-color:#1D70B7;
+$gray:#707070;
+
+
+
+
+
+
+$color-themes: (
+  //屬性: key, value
+  'primary-color': $primary-color,
+  'gray': $gray,
+);
+/* --------------字型設定開始--------------- */
+$font-xxxs:.7rem;
+$font-xxs:.8rem;
+$font-xs:.9rem;
+$font-xsm:.95rem;
+$font-sm:1rem;
+$font-smd:1.125rem;
+$font-md:1.2rem;
+$font-lg:1.4rem;
+$font-xl:1.8rem;
+$font-xxl:2.5rem;
+$font-xxxl:3rem;
+
+$font-size-themes: (
+  //屬性: key, value
+  'font-xxxs': $font-xxxs,
+  'font-xxs': $font-xxs,
+  'font-xs': $font-xs,
+  'font-xsm': $font-xsm,
+  'font-sm': $font-sm,
+  'font-smd': $font-smd,
+  'font-md': $font-md,
+  'font-lg': $font-lg,
+  'font-xl': $font-xl,
+  'font-xxl': $font-xxl,
+  'font-xxxl': $font-xxxl,
+);
+
+
+$font-xlight:100;
+$font-light:400;
+$font-bold:500;
+$font-heavy:600;
+$font-xheavy:800;
+
+$font-weight-themes: (
+  //屬性: key, value
+  'font-xlight': $font-xlight,
+  'font-light': $font-light,
+  'font-bold': $font-bold,
+  'font-heavy': $font-heavy,
+  'font-xheavy': $font-xheavy,
+);
+
+
+@mixin gradient-horizon($primary-color,$gray) {
+background: $gray; /* Old browsers */
+background: -moz-linear-gradient(left,  $primary-color 0%, $gray 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  $primary-color 0%,$gray 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  $primary-color 0%,$gray 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+/* 字體設定 */
+$font1: 微軟正黑體, Noto Sans TC, sans-serif;
+$font2: Noto Sans TC, 微軟正黑體, sans-serif;
+$font-en: arial, sans-serif;
