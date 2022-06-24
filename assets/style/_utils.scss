@@ -9,14 +9,13 @@
     background: $white;
     border-radius: 8px;
     height: 100%;
-    overflow: auto;
 }
 .content-wrapper{
     height: 100%;
     padding: 0 16px;
+    overflow: auto;
 }
 .content {
-    overflow: auto;
     height: 100%;
 }
 /*-----------------連結樣式---------------------*/
