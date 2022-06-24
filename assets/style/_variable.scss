@@ -2,16 +2,15 @@
 
 $primary-color:#1D70B7;
 $gray:#707070;
-
-
-
-
-
+$gray-light:#F5F5F5;
+$white:#ffffff;
 
 $color-themes: (
   //屬性: key, value
   'primary-color': $primary-color,
   'gray': $gray,
+  'gray-light': $gray-light,
+  'white': $white,
 );
 /* --------------字型設定開始--------------- */
 $font-xxxs:.7rem;
